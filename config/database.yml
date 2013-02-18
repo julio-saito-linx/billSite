@@ -1,0 +1,16 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: utf-8
+  pool: 5
+  host: localhost
+  username: superuser
+  password: superpass
+
+development:
+  <<: *defaults
+  database: billSite_development
+
+test:
+  <<: *defaults
+  database: billSite_test
+
