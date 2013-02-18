@@ -13,6 +13,7 @@ group :development, :test do
   gem 'pry'
   gem 'awesome_print'
   gem 'guard-rspec'
+  gem 'thin'
 end
 
 group :test do
