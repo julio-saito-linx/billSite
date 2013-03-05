@@ -3,6 +3,7 @@ source :rubygems
 gem "rails", "3.2.12"
 gem "pg"
 gem "bcrypt-ruby", :require => "bcrypt"
+gem "rails-i18n"
 
 group :assets do
   gem "sass-rails"
