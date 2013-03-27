@@ -3,8 +3,6 @@ require 'spec_helper'
 describe User, "password hashing" do
   subject(:user) { User.new }
 
-
-
   it "generates hash" do
     # mock
     PasswordEncryptor.should_receive(:encrypt).with("some_password")
@@ -20,6 +18,7 @@ describe User, "password hashing" do
   end
 
   it "sets password" do
+    # stub
     PasswordEncryptor.stub :encrypt
     user.password = "some_password"
 

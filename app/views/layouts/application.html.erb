@@ -8,6 +8,15 @@
 </head>
 <body>
 
+<h1><%= t("site.title") %></h1>
+
+<div>
+  <ul>
+    <li><%= link_to t("menu.new_user"), users_new_path %></li>
+    <li><%= link_to t("menu.login"), users_login_path %></li>
+  </ul>
+</div>
+
 <%= yield %>
 
 </body>

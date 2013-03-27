@@ -1,0 +1,9 @@
+pt-BR:
+  labels:
+    user:
+      name: "Nome"
+      email: "Email"
+      password: "Senha"
+      password_confirmation: "Confirmação de Senha"
+      create_user: "Enviar Cadastro"
+      user_created: "Usuário Registrado com Sucesso"
