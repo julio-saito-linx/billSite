@@ -26,6 +26,10 @@ group :test do
   gem "spork"
 end
 
+group :production do
+  gem "unicorn"
+end
+
 # To use ActiveModel has_secure_password
 
 # To use Jbuilder templates for JSON
