@@ -16,6 +16,9 @@ class User < ActiveRecord::Base
     @password = password
   end
 
+  def get_password_hash
+    self.password_hash
+  end
 
   private
     def erase_password
